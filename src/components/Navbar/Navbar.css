@@ -1,0 +1,143 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background with opacity 0.2 */
+  backdrop-filter: blur(10px); /* Blur effect */
+  padding: 10px 40px;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.5);
+  position: sticky; /* Make the navbar sticky */
+  top: 0; /* Stick to the top */
+  z-index: 1000; /* Ensure navbar is above other content */
+}
+
+.navbar-logo h1 {
+  color: #f3f2f5; /* Black text */
+  font-weight: bold;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-left: 40px;
+}
+
+.navbar-links a {
+  color: #f3f2f5;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  display: block;
+}
+
+.navbar-links a:hover {
+  color: #00ADB5;
+  text-decoration: none;
+}
+
+.contact-button {
+  background-color: #00ADB5;
+  border-radius: 20px;
+  padding: 8px 30px;
+  color: #FFFFF0;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-left: 200px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-button:hover {
+  background-color: #FFFFF0;
+  color: #00ADB5;
+  font-weight: bold;
+}
+
+.mobile-menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #000000; /* Black text */
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    background-color: #011c2b; /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    z-index: 1001; /* Ensure dropdown is above other content */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-links li {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .navbar-links .contact-button {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-bottom: 5%;
+  }
+
+  .navbar-links a {
+    color: #f3f2f5;
+  }
+
+  .contact-button {
+    background-color: #00ADB5;
+    border-radius: 20px;
+    padding: 8px 30px;
+    color: #FFFFF0;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-button:hover {
+    background-color: #FFFFF0;
+    color: #00ADB5;
+    font-weight: bold;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .navbar-logo {
+    flex: 1;
+    text-align: center;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,229 @@
+/* Footer Styles */
+.footer {
+    background-color: #222831;
+    color: white;
+    padding: 40px 0;
+    text-align: left;
+    border-top: 1px solid #39404a;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+  }
+  
+  .footer-section h3,
+  .footer-section h4 {
+    color: #00ADB5;
+    font-size: 26px;
+    font-weight: 500;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .footer-reviews {
+    margin-top: 20px;
+  }
+  
+  .footer-review-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .footer-pages {
+    margin-left: 30px;
+  }
+  
+  .footer-pages ul {
+    margin-left: 0;
+  }
+  
+  .footer-pages ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-pages a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-pages a:hover {
+    color: #00ADB5;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #39404a;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom-links span {
+    cursor: pointer;
+  }
+
+.CTA-button {
+  background-color: #00ADB5;
+  color: #FFFFF0;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 250px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px; /* Adding padding for better button size */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.CTA-button:hover {
+  background-color: #FFFFF0;
+  color: #00ADB5;
+ 
+}
+
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    /* Tablet Styles */
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-section {
+      margin: 10px 0;
+      width: 80%;
+    }
+    
+    .footer-section h3,
+    .footer-section h4 {
+      font-size: 22px;
+    }
+    
+    .footer-bottom-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    
+.CTA-button {
+  background-color: #FFFFF0;
+  color: #00ADB5;
+  border: none;
+  border-radius: 20px;
+  height: auto;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px; /* Adding padding for better button size */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.CTA-button:hover {
+  background-color: #00ADB5;
+  color: #FFFFF0;
+}
+ 
+  }
+  
+  
+  @media (max-width: 768px) {
+    /* Mobile Styles */
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-section {
+      margin: 10px 0;
+      width: 90%;
+      text-align: center;
+    }
+    
+    .footer-section h3,
+    .footer-section h4 {
+      font-size: 20px;
+    }
+    
+    .footer-section ul li {
+      margin: 5px 0;
+    }
+    
+    .footer-social-icons {
+      justify-content: center;
+    }
+    
+    .footer-review-icons {
+      justify-content: center;
+    }
+    
+    .footer-pages {
+      margin-left: 0;
+    }
+    
+    .footer-bottom-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .footer-bottom p {
+      margin: 10px 0;
+    }
+   
+.CTA-button {
+  background-color: #FFFFF0;
+  color: #00ADB5;
+  border: none;
+  border-radius: 20px;
+  height: auto;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px; /* Adding padding for better button size */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.CTA-button:hover {
+  background-color: #00ADB5;
+  color: #FFFFF0;
+}
+    
+  }
+
+
+  
