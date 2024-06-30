@@ -36,9 +36,6 @@ body, html {
   z-index: 2;
 }
 
-
-
-
 .content-homepage h2 {
   font-size: 90px;
   font-weight: 900;
@@ -169,6 +166,7 @@ body, html {
 .content-makepage h4 {
   font-size: 25px;
   font-weight: 400;
+  margin-bottom: 8%;
 }
 
 .content-makepage h5 {
@@ -177,7 +175,6 @@ body, html {
   margin-bottom: 0px;
   margin-top: 4%;
 }
-
 
 /* Mission Section */
 .mission-section {
@@ -297,6 +294,10 @@ body, html {
   font-weight: 400;
 }
 
+.content-lastsection button {
+  margin: 0 auto; /* Centers the button horizontally */
+}
+
 /* Forefront Section */
 .forefront-section {
   display: flex;
@@ -325,6 +326,29 @@ body, html {
 .content-forefront h4 {
   font-size: 20px;
   font-weight: 400;
+  margin-bottom: 8%;
+}
+
+/* Button Styles */
+.button-cta {
+  background-color: #00ADB5;
+  color: #FFFFF0;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 250px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 20px;
+}
+
+.button-cta:hover {
+  background-color: #FFFFF0;
+  color: #00ADB5;
 }
 
 /* Fade-in transition */
@@ -380,24 +404,23 @@ body, html {
     padding: 20px 5%;
   }
 
-   /* Tablet Styles */
-   .main-section,
-   .make-section,
-   .mission-section,
-   .vision-section,
-   .forefront-section {
-     flex-direction: column;
-     text-align: center;
-     padding: 20px 5%;
-   }
+  .main-section,
+  .make-section,
+  .mission-section,
+  .vision-section,
+  .forefront-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 5%;
+  }
  
-   .content-makepage h2 {
-     font-size: 45px;
-   }
+  .content-makepage h2 {
+    font-size: 45px;
+  }
  
-   .content-makepage h4 {
-     font-size: 20px;
-   }
+  .content-makepage h4 {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -512,26 +535,25 @@ body, html {
     font-size: 14px;
   }
 
-   /* Mobile Styles */
-   .main-section,
-   .make-section,
-   .mission-section,
-   .vision-section,
-   .forefront-section {
-     flex-direction: column;
-     text-align: center;
-     padding: 20px 5%;
-   }
+  .main-section,
+  .make-section,
+  .mission-section,
+  .vision-section,
+  .forefront-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 5%;
+  }
  
-   .content-makepage {
-     padding: 20px;
-   }
+  .content-makepage {
+    padding: 20px;
+  }
  
-   .content-makepage h2 {
-     font-size: 35px;
-   }
+  .content-makepage h2 {
+    font-size: 35px;
+  }
  
-   .content-makepage h4 {
-     font-size: 18px;
-   }
+  .content-makepage h4 {
+    font-size: 18px;
+  }
 }

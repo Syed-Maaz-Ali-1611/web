@@ -18,7 +18,10 @@ const Navbar = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/services">Services</Link></li>
-        <li><Link to="/contact" className="contact-button">Reachout To Us!</Link></li>
+        <li><Link to="/blogs">Blogs</Link></li>
+        <li><Link to="/contactus">Contact Us</Link></li>
+
+        <li><Link to="/reachout" className="contact-button">Reachout To Us</Link></li>
       </ul>
       <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
         &#9776;

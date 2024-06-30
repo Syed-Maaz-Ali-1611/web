@@ -31,6 +31,9 @@ function Home() {
       });
     };
   }, []);
+  const handleContactClick = () => {
+    // history.push('/contact');
+  };
 
   return (
     <div className='main'>
@@ -42,6 +45,8 @@ function Home() {
               We transform your tech vision to reality from design to development,
               with an emphasis on ground-breaking innovation and user-centric experiences.
             </h4>
+            <button className="button-cta " onClick={handleContactClick}>Contact Us</button>
+
           
         </div>
         <div className='image-first'>
@@ -117,7 +122,9 @@ Our experts will conduct thorough consultations to gather insights and evaluate 
       <div className='last-section'>
         <div className='content-lastsection'>
         <h2>Make An Appointment To See Our Team; We Would Be <br/> Happy To Help.</h2>
-<h4> Please Contact Us With Any Inquiries Or More Information About Our Services.</h4>    
+<h4> Please Contact Us With Any Inquiries Or More Information About Our Services.</h4>  
+<button className="button-cta " onClick={handleContactClick}>Contact Us</button>
+
     </div>
       </div>
 
