@@ -431,9 +431,9 @@ body, html {
   }
   
   .content-homepage {
-    margin-top: 5%;
-    margin-left: 5%;
-    padding: 20px;
+    margin-top: -10%;
+        margin-left: -10%;
+        padding: 53px;
   }
   
   .content-homepage h2 {
@@ -447,9 +447,9 @@ body, html {
   }
   
   .image-first img {
-    width: 90%;
-    margin-top: 5%;
-    margin-left: 5%;
+    width: 68%;
+        margin-top: 5%;
+        margin-left: -7%;
   }
   
   .content-secondpage h2 {
@@ -463,11 +463,14 @@ body, html {
   .third-section {
     flex-direction: column;
     height: auto;
+    margin-bottom: 5%;
   }
   
   .image-thirdpage img {
     width: 72%;
     margin-top: 5%;
+    margin-left: 21%;
+
   }
   
   .content-thirdpage {
@@ -502,7 +505,8 @@ body, html {
   .image-mission img,
   .image-vision img {
     width: 70%;
-    margin-top: 10%;
+        margin-top: 10%;
+        margin-left: 16%;
   }
   
   .content-mission,
@@ -512,7 +516,8 @@ body, html {
   
   .content-lastsection h2 {
     font-size: 23px;
-    text-align: center;
+        text-align: center;
+        line-height: 41px;
   }
   
   .content-lastsection h4 {
@@ -532,7 +537,7 @@ body, html {
   }
   
   .content-forefront h4 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .main-section,
