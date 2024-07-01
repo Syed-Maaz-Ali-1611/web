@@ -9,18 +9,22 @@ const Navbar = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-logo">
         <h1>WEPSSO</h1>
       </div>
       <ul className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/blogs">Blogs</Link></li>
-        <li><Link to="/contactus">Contact Us</Link></li>
-        <li><Link to="/reachout" className="contact-button">Reachout To Us</Link></li>
+        <li><Link to="/" onClick={closeMobileMenu}>Home</Link></li>
+        <li><Link to="/about" onClick={closeMobileMenu}>About</Link></li>
+        <li><Link to="/services" onClick={closeMobileMenu}>Services</Link></li>
+        <li><Link to="/blogs" onClick={closeMobileMenu}>Blogs</Link></li>
+        <li><Link to="/contactus" onClick={closeMobileMenu}>Contact Us</Link></li>
+        <li><Link to="/reachout" className="contact-button" onClick={closeMobileMenu}>Reachout To Us</Link></li>
       </ul>
       <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
         &#9776;
