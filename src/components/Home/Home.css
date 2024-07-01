@@ -6,6 +6,7 @@ body, html {
   height: 100%;
   background-color: #011c2b;
   color: #ffffff;
+  overflow-x: hidden;
 }
 
 /* Main Section */
@@ -368,31 +369,31 @@ body, html {
     flex-direction: column;
     height: auto;
   }
-  
+
   .image-first img {
     width: 80%;
     margin-top: 10%;
     margin-left: 10%;
   }
-  
+
   .image-thirdpage img {
     width: 80%;
     margin-left: 10%;
   }
-  
+
   .mission-section,
   .vision-section {
     flex-direction: column;
     text-align: center;
     padding: 20px 5%;
   }
-  
+
   .image-mission,
   .image-vision {
     text-align: center;
     margin-top: 20px;
   }
-  
+
   .image-mission img,
   .image-vision img {
     width: 70%;
@@ -413,11 +414,11 @@ body, html {
     text-align: center;
     padding: 20px 5%;
   }
- 
+
   .content-makepage h2 {
     font-size: 45px;
   }
- 
+
   .content-makepage h4 {
     font-size: 20px;
   }
@@ -429,97 +430,96 @@ body, html {
     flex-direction: column;
     height: auto;
   }
-  
+
   .content-homepage {
     margin-top: -10%;
-        margin-left: -10%;
-        padding: 53px;
+    margin-left: -10%;
+    padding: 53px;
   }
-  
+
   .content-homepage h2 {
     font-size: 35px;
     text-align: center;
   }
-  
+
   .content-homepage h4 {
     font-size: 14px;
     text-align: center;
   }
-  
+
   .image-first img {
     width: 68%;
-        margin-top: 5%;
-        margin-left: -7%;
+    margin-top: 5%;
+    margin-left: -7%;
   }
-  
+
   .content-secondpage h2 {
     font-size: 35px;
   }
-  
+
   .content-secondpage h4 {
     font-size: 14px;
   }
-  
+
   .third-section {
     flex-direction: column;
     height: auto;
     margin-bottom: 5%;
   }
-  
+
   .image-thirdpage img {
     width: 72%;
     margin-top: 5%;
     margin-left: 21%;
-
   }
-  
+
   .content-thirdpage {
     margin-left: 5%;
     margin-top: 5%;
     padding: 20px;
   }
-  
+
   .content-thirdpage h2 {
     font-size: 35px;
     text-align: center;
   }
-  
+
   .content-thirdpage h4 {
     font-size: 14px;
     text-align: center;
   }
-  
+
   .mission-section,
   .vision-section {
     flex-direction: column;
     text-align: center;
     padding: 20px 5%;
   }
-  
+
   .image-mission,
   .image-vision {
     text-align: center;
     margin-top: 20px;
   }
-  
+
   .image-mission img,
   .image-vision img {
     width: 70%;
-        margin-top: 10%;
-        margin-left: 16%;
+    margin-top: 10%;
+    margin-left: 16%;
   }
-  
+
   .content-mission,
   .content-vision {
     text-align: center;
   }
-  
+
   .content-lastsection h2 {
     font-size: 23px;
-        text-align: center;
-        line-height: 41px;
+    text-align: center;
+    line-height: 41px;
   }
-  
+
   .content-lastsection h4 {
     font-size: 14px;
     text-align: center;
@@ -531,11 +531,11 @@ body, html {
     text-align: center;
     padding: 20px 5%;
   }
-  
+
   .content-forefront h2 {
     font-size: 35px;
   }
-  
+
   .content-forefront h4 {
     font-size: 16px;
   }
@@ -549,15 +549,15 @@ body, html {
     text-align: center;
     padding: 20px 5%;
   }
- 
+
   .content-makepage {
     padding: 20px;
   }
- 
+
   .content-makepage h2 {
     font-size: 35px;
   }
- 
+
   .content-makepage h4 {
     font-size: 18px;
   }
