@@ -160,14 +160,20 @@
 
     .section-3 {
         text-align: center;
-        padding: 20px;
-    }
+        padding: 8px;
 
+    }
+    /* Add the following CSS rule */
+    .section-3 .content-section-3 {
+        padding: 0px;
+    }
     .section-3 h2 {
         font-size: 43px;
     }
 
     .section-3 h4, .section-3 h5 {
         font-size: 20px;
+        line-height: 31px;
+        font-weight: 300;
     }
 }
