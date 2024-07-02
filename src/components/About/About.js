@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import Section2 from '../../assets/images/mission.png'
+import Section4 from '../../assets/images/com.png'
 function About() {
   return (
     <div className='About-main'>
@@ -38,6 +39,9 @@ Our reputation is glowing client feedback which is a testament to our dedication
                 <h2>COMMUNICAION</h2>
                 <h4>Keeping You in the LOOP</h4>
                 <h5>Crystal-clear communication is our mantra. We ditch the technical jargon and ensure you understand the process. By providing regular updates throughout the cycle, and post-launch, keeping you informed with product performance data and next steps.</h5>
+            </div>
+            <div className='section-4-image'>
+                <img src={Section4} alt='section-4-image' />
             </div>
         </div>
 
