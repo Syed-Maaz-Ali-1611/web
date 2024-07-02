@@ -101,6 +101,10 @@
         width: 100%;
     }
 
+    .section-1 .content-section-1 {
+        margin-left: -12%; /* Add left margin for content part */
+    }
+
     .section-1 .content-section-1 h2 {
         font-size: 50px;
     }
