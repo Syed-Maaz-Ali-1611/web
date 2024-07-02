@@ -561,4 +561,20 @@ body, html {
   .content-makepage h4 {
     font-size: 18px;
   }
+
+  .button-cta {
+    background-color: #00ADB5;
+    color: #FFFFF0;
+    border: none;
+    border-radius: 20px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+}
 }
