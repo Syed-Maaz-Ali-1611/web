@@ -111,11 +111,13 @@
 
     .section-2 h2 {
         font-size: 40px;
-        text-align: center;
     }
 
     .section-2 h4 {
         font-size: 18px;
+    }
+
+    .content-section-2 {
         text-align: center;
     }
 }
