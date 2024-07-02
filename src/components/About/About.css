@@ -92,6 +92,65 @@
     font-weight: 400;
 }
 
+/* Section 4 specific styles */
+.section-4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.content-section-4 {
+    flex: 1 1;
+    padding: 39px;
+    text-align: left;
+    margin-top: 0;
+}
+
+.section-4-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-4 img {
+    width: 65%;
+    height: auto;
+}
+
+.section-4 h2 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.section-4 h4 {
+    font-weight: 100;
+    font-size: 19px;
+}
+
+.section-4 h5 {
+    font-size: 19px;
+    font-weight: 100;
+}
+
+/* Section 5 specific styles */
+.section-5 {
+    padding: 20px;
+    text-align: center;
+}
+
+.content-section-5 h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.content-section-5 h4 {
+    font-weight: 100;
+    font-size: 19px;
+}
+
 /* Responsive styles */
 @media (max-width: 1024px) {
     .section-1 .content-section-1 h2 {
@@ -125,6 +184,24 @@
     }
 
     .section-3 h4, .section-3 h5 {
+        font-size: 25px;
+    }
+
+    .section-4 {
+        flex-direction: column;
+    }
+
+    .content-section-4,
+    .section-4-image {
+        flex: unset;
+        padding: 10px;
+    }
+
+    .section-4 h2 {
+        font-size: 50px;
+    }
+
+    .section-4 h4, .section-4 h5 {
         font-size: 25px;
     }
 }
@@ -161,12 +238,12 @@
     .section-3 {
         text-align: center;
         padding: 8px;
-
     }
-    /* Add the following CSS rule */
+
     .section-3 .content-section-3 {
         padding: 0px;
     }
+
     .section-3 h2 {
         font-size: 43px;
     }
@@ -175,5 +252,49 @@
         font-size: 18px;
         line-height: 31px;
         font-weight: 300;
+    }
+
+    .section-2 {
+        flex-direction: column;
+    }
+
+    .content-section-2,
+    .section-2-image {
+        flex: unset;
+        padding: 10px;
+    }
+
+    .section-2 img {
+        width: 100%;
+    }
+
+    .content-section-2 {
+        text-align: center;
+    }
+
+    .section-4 {
+        flex-direction: column;
+    }
+
+    .content-section-4,
+    .section-4-image {
+        flex: unset;
+        padding: 10px;
+    }
+
+    .section-4 img {
+        width: 100%;
+    }
+
+    .section-4 h2 {
+        font-size: 40px;
+    }
+
+    .section-4 h4, .section-4 h5 {
+        font-size: 18px;
+    }
+
+    .content-section-4 {
+        text-align: center;
     }
 }
