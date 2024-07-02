@@ -438,7 +438,7 @@ body, html {
   }
 
   .content-homepage h2 {
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
   }
 
@@ -567,10 +567,10 @@ body, html {
     color: #FFFFF0;
     border: none;
     border-radius: 20px;
-    height: 42px;
+    height: 45px;
     font-size: 16px;
     font-weight: 100;
-    width: 123px;
+    width: 113px;
     text-align: center;
     cursor: pointer;
     padding: 10px;
