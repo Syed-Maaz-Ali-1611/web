@@ -481,7 +481,7 @@ body, html {
   }
 
   .content-thirdpage h2 {
-    font-size: 35px;
+    font-size: 43px;
     text-align: center;
   }
 
@@ -513,6 +513,16 @@ body, html {
   .content-mission,
   .content-vision {
     text-align: center;
+  }
+
+  .content-mission h2,
+  .content-vision h2 {
+    font-size: 48px; /* Adjust font size for h2 */
+  }
+
+  .content-mission h4,
+  .content-vision h4 {
+    font-size: 18px; /* Adjust font size for h4 */
   }
 
   .content-lastsection h2 {
@@ -556,7 +566,7 @@ body, html {
   }
 
   .content-makepage h2 {
-    font-size: 35px;
+    font-size: 43px;
   }
 
   .content-makepage h4 {
@@ -577,5 +587,5 @@ body, html {
     padding: 10px;
     transition: background-color 0.3s ease, color 0.3s ease;
     margin-top: 20px;
-}
+  }
 }
