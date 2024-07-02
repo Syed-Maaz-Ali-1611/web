@@ -1,5 +1,6 @@
 import React from 'react'
-
+import './About.css'
+import Section2 from '../../assets/images/mission.png'
 function About() {
   return (
     <div className='About-main'>
@@ -17,6 +18,10 @@ function About() {
 Our reputation is glowing client feedback which is a testament to our dedication to groundbreaking custom solutions
 </h4>
             </div>
+            <div className='section-2-image'>
+                <img src={Section2} alt='section-2-image' />
+            </div>
+
         </div>
 
 
