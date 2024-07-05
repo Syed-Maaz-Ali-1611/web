@@ -1,17 +1,9 @@
-/* Import the font */
-@font-face {
-    font-family: 'Termina';
-    src: url('../../assets/Fonts/Termina/TerminaTest-Regular.otf') format('opentype');
-   
-  
-  }
-  
+
 
 /* Global styles */
 .About-main {
     text-align: center;
     padding: 20px;
-    font-family: 'Termina', sans-serif;
 
 }
 
