@@ -1,3 +1,10 @@
+/* Import the font */
+@font-face {
+  font-family: 'Termina';
+  src: url('../../assets/Fonts/Termina/TerminaTest-Regular.otf') format('opentype');
+ 
+
+}
 /* Global Styles */
 body, html {
   margin: 0;
@@ -7,6 +14,7 @@ body, html {
   background-color: #011c2b;
   color: #ffffff;
   overflow-x: hidden;
+  font-family: 'Termina', sans-serif;
 }
 
 /* Main Section */
@@ -86,8 +94,8 @@ body, html {
 }
 
 .content-secondpage h4 {
-  font-size: 28px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 100;
 }
 
 /* Third Section */

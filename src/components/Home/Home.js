@@ -57,8 +57,13 @@ function Home() {
       {/* second section */}
       <div className='second-section fade-in-section'>
         <div className='content-secondpage'>
-          <h2>EMPOWERING DIGITAL SERVICES</h2>
-          <h4>We’re a leading full-service product development agency, specializing in the entire website and application design and development services.</h4>
+          <h2>Transform Your Digital Presence
+          with Weppso</h2>
+          <h4>Are you looking to transform your digital presence? At Weppso, we're your go-to
+full-service product development agency, specializing in comprehensive website and
+application design and development services. Our team of expert designers,
+developers, and strategists are passionate about creating innovative digital solutions
+that drive results for businesses of all sizes.</h4>
         </div>
       </div>
 
@@ -66,8 +71,11 @@ function Home() {
       <div className='third-section fade-in-section'>
         <div className='content-thirdpage'>
           <h2>Why Choosing Weppso?</h2>
-          <h4>At Weppso, we go beyond just building software; we forge partnerships. Our  team of experts encompasses the entire spectrum of your needs,
-            from bespoke software development to comprehensive maintenance and ongoing support.We meticulously craft a collaborative and gratifying experience.</h4>
+          <h4>At Weppso, we go beyond just building software; we forge partnerships.
+Our team of experts encompasses the entire spectrum of your needs, from
+bespoke software development to comprehensive maintenance and
+ongoing support. We meticulously craft a collaborative and gratifying
+experience.</h4>
         </div>
         <div className='image-thirdpage'>
           <img src={Image2} alt='Gif' />
@@ -77,7 +85,7 @@ function Home() {
       {/* Tab make your own  */}
       <div className = 'Make-section'>
         <div className='content-makepage'>
-        <h5>Weppso</h5>
+        
         <h2>Make your own pieces. <br/>everywhere!</h2>
         <h4>Weppso is good wherever you go. You can use it to start creating parts of an existing project or to create a new composition project.
         </h4>
