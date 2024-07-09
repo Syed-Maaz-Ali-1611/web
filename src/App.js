@@ -4,20 +4,21 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
-// import Services from './Services';
-// import Projects from './Projects';
-// import Contact from './Contact';
+import ScrollToTop from './components/ScrollToTop';
+import Services from './components/Services/Services';
 import './App.css';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/services" element={<Services />} /> */}
+          {/* Uncomment and add your other routes */}
+          <Route path="/services" element={<Services />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
         <Footer />
