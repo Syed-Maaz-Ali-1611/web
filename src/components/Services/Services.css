@@ -76,6 +76,11 @@ h4 {
     font-size: 16px;
 }
 
+/* Add padding/margin to the right of the last service item */
+.service-item:nth-child(3n) {
+    margin-right: 20px; /* Adjust this value as needed */
+}
+
 /* Responsive styles */
 @media (max-width: 1024px) {
     .section1 .content-section1 h2 {
@@ -101,28 +106,54 @@ h4 {
     }
 
     .section1 .content-section1 {
-        margin-left: -12%; /* Add left margin for content part */
+        margin-left: -12%;
+        padding: 39px;
     }
 
     .section1 .content-section1 h2 {
         font-size: 58px;
     }
 
+    .service-section {
+        flex-direction: column;
+        align-items: center;
+        margin-left: -24px;
+    }
+
+    /* Global h2 styles */
+h2 {
+    font-size: 50px; /* Set all h2 headings to 58px */
+}
+
     .service-item {
-        flex: 0 1 100%;
-        margin: 10px 0;
+        flex: 0 1 90%;
+        margin: 13px 0px;
+        max-width: 100%;
+        width: 74%;
+    }
+
+    .service-item img {
+        max-width: 80px; /* Reduce image size */
+        margin-bottom: 15px;
     }
 
     .service-item h3 {
-        font-size: 16px;
+        font-size: 16px; /* Reduce font size for headings */
     }
 
     .service-item p {
-        font-size: 12px;
+        font-size: 12px; /* Reduce font size for paragraphs */
+    }
+
+    h4 {
+        font-size: 25px;
+        font-weight: 100;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .service-item:nth-child(3n) {
+        margin-right: -4px;
     }
 }
 
-/* Add padding/margin to the right of the last service item */
-.service-item:nth-child(3n) {
-    margin-right: 20px; /* Adjust this value as needed */
-}
+
