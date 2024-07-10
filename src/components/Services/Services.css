@@ -76,6 +76,12 @@ h4 {
     font-size: 16px;
 }
 
+.section10{
+    padding: 33px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /* Add padding/margin to the right of the last service item */
 .service-item:nth-child(3n) {
     margin-right: 20px; /* Adjust this value as needed */
@@ -113,7 +119,7 @@ h4 {
     .section1 .content-section1 h2 {
         font-size: 50px;
     }
-
+    
     .service-section {
         flex-direction: column;
         align-items: center;
@@ -143,6 +149,10 @@ h2 {
 
     .service-item p {
         font-size: 12px; /* Reduce font size for paragraphs */
+    }
+
+    .section10{
+        padding: 33px;
     }
 
     h4 {
