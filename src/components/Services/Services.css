@@ -4,6 +4,17 @@
     padding: 5px;
 }
 
+/* Global h2 styles */
+h2 {
+    font-size: 58px; /* Set all h2 headings to 58px */
+}
+
+/* Global h4 styles */
+h4 {
+    font-size: 25px;
+    font-weight: 100;
+}
+
 /* Section 1 specific styles */
 .section1 {
     padding: 20px;
@@ -20,7 +31,6 @@
 }
 
 .section1 .content-section1 h2 {
-    font-size: 24px;
     font-weight: unset;
 }
 
@@ -69,7 +79,7 @@
 /* Responsive styles */
 @media (max-width: 1024px) {
     .section1 .content-section1 h2 {
-        font-size: 25px;
+        font-size: 58px;
     }
 
     .service-item {
@@ -95,7 +105,7 @@
     }
 
     .section1 .content-section1 h2 {
-        font-size: 20px;
+        font-size: 58px;
     }
 
     .service-item {
