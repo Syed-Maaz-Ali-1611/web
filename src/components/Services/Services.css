@@ -1,7 +1,7 @@
 /* General styles for the Services page */
 .main {
     text-align: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 /* Section 1 specific styles */
@@ -37,15 +37,15 @@
 }
 
 .service-item {
-    flex: 0 1 28%; /* Adjusted to make the boxes smaller */
-    margin: 15px 10px; /* Added left and right margin */
+    flex: 0 1 28%;
+    margin: 14px -36px;
     text-align: center;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5); /* White shadow */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
-    color: #f3f2f5; /* Adjust text color */
-    transition: transform 0.3s; /* Smooth zoom-in effect on hover */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #f3f2f5;
+    transition: transform 0.3s;
 }
 
 .service-item:hover {
