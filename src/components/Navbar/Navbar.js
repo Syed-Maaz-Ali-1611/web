@@ -23,7 +23,7 @@ const Navbar = () => {
         <li><Link to="/" onClick={closeMobileMenu}>Home</Link></li>
         <li><Link to="/about" onClick={closeMobileMenu}>About</Link></li>
         <li><Link to="/services" onClick={closeMobileMenu}>Services</Link></li>
-        <li><Link to="/blogs" onClick={closeMobileMenu}>Blogs</Link></li>
+        {/* <li><Link to="/blogs" onClick={closeMobileMenu}>Blogs</Link></li> */}
         <li><Link to="/contactus" onClick={closeMobileMenu}>Contact Us</Link></li>
         <li><Link to="/reachout" className="contact-button" onClick={closeMobileMenu}>Reachout To Us</Link></li>
       </ul>
@@ -32,6 +32,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;
