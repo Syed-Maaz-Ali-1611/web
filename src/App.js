@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import ScrollToTop from './components/ScrollToTop';
 import Services from './components/Services/Services';
+import Contact from './components/Contact/Contact';
 import './App.css';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           {/* Uncomment and add your other routes */}
           <Route path="/services" element={<Services />} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
