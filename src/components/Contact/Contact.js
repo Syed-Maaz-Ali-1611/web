@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import './Contact.css'
-import ContactImage from '../../assets/images/home1.jpg'
+import './Contact.css'; // Import your CSS file
+import ContactImage from '../../assets/images/home1.jpg';
+import axios from 'axios'; // Import Axios for HTTP requests
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -9,49 +10,68 @@ function Contact() {
     phoneNumber: '',
     email: '',
     companyName: '',
-    message: ''
+    message: '',
   });
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
-    // Add your form submission logic here
+
+    try {
+      const response = await axios.post('https://smaazali-backend.mdbgo.io/api/contact', formData);
+      console.log(response.data); // Log API response for debugging
+      alert('Form submitted successfully!'); // Or display a dynamic message
+      setFormData({
+        firstName: '',
+        lastName: '',
+        phoneNumber: '',
+        email: '',
+        companyName: '',
+        message: '',
+      });
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('Error submitting form. Please try again later.');
+    }
   };
 
   return (
-    <div className='main'>
-      <div className='main-heading'>
-        <div className='content-main-heading'>
+    <div className="main">
+      <div className="main-heading">
+        <div className="content-main-heading">
           <h1>Get in touch</h1>
         </div>
-        <div className='content-image'>
-          <img src={ContactImage} alt='contact' />
+        <div className="content-image">
+          <img src={ContactImage} alt="contact" />
         </div>
       </div>
+
       {/* Section 1 */}
-      <div className='section1-contact'>
-        <div className='content-section1-contact'>
+      <div className="section1-contact">
+        <div className="content-section1-contact">
           <h5>
-            Schedule a consultation today to explore how our advisory, implementation, lifecycle, and growth engine solutions can drive exponential growth for your company. Easily schedule by filling out the form below:
+            Schedule a consultation today to explore how our advisory,
+            implementation, lifecycle, and growth engine solutions can drive
+            exponential growth for your company. Easily schedule by filling out
+            the form below:
           </h5>
         </div>
       </div>
 
       {/* Form section */}
-      <div className='form-section'>
+      <div className="form-section">
         <form onSubmit={handleSubmit}>
           <div>
             <label>First Name:</label>
             <input
-              type='text'
-              name='firstName'
+              type="text"
+              name="firstName"
               value={formData.firstName}
               onChange={handleChange}
               required
@@ -60,8 +80,8 @@ function Contact() {
           <div>
             <label>Last Name:</label>
             <input
-              type='text'
-              name='lastName'
+              type="text"
+              name="lastName"
               value={formData.lastName}
               onChange={handleChange}
               required
@@ -70,8 +90,8 @@ function Contact() {
           <div>
             <label>Phone Number:</label>
             <input
-              type='tel'
-              name='phoneNumber'
+              type="tel" // Use "tel" for phone number input
+              name="phoneNumber"
               value={formData.phoneNumber}
               onChange={handleChange}
               required
@@ -80,8 +100,8 @@ function Contact() {
           <div>
             <label>Email:</label>
             <input
-              type='email'
-              name='email'
+              type="email"
+              name="email"
               value={formData.email}
               onChange={handleChange}
               required
@@ -90,8 +110,8 @@ function Contact() {
           <div>
             <label>Company Name:</label>
             <input
-              type='text'
-              name='companyName'
+              type="text"
+              name="companyName"
               value={formData.companyName}
               onChange={handleChange}
               required
@@ -100,13 +120,15 @@ function Contact() {
           <div>
             <label>Message:</label>
             <textarea
-              name='message'
+              name="message"
               value={formData.message}
               onChange={handleChange}
               required
             />
           </div>
-          <button className="button-cta"  type='submit'>Submit</button>
+          <button className="button-submit" type="submit">
+            Submit
+          </button>
         </form>
       </div>
     </div>
