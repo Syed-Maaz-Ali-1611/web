@@ -24,7 +24,7 @@ function Contact() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://smaazali-backend.mdbgo.io/api/contact', formData);
+      const response = await axios.post('http://localhost:3000/api/contact', formData);
       console.log(response.data); // Log API response for debugging
       alert('Form submitted successfully!'); // Or display a dynamic message
       setFormData({
