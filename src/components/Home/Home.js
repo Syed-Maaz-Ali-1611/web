@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Image from '../../assets/images/home1.jpg';
 import Image2 from '../../assets/images/image2.gif';
 import MissionImage from '../../assets/images/mission.png';
@@ -6,6 +7,8 @@ import VisionImage from '../../assets/images/vision.jpg';
 import './Home.css';
 
 function Home() {
+  const navigate = useNavigate();
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       entries => {
@@ -31,23 +34,21 @@ function Home() {
       });
     };
   }, []);
+
   const handleContactClick = () => {
-    // history.push('/contact');
+    navigate('/contact');
   };
 
   return (
     <div className='main'>
       <div className='main-section fade-in-section'>
         <div className='content-homepage typewriter'>
-        
           <h2>WEPPSO</h2>
-            <h4 class="btn-shine">
-              We transform your tech vision to reality from design to development,
-              with an emphasis on ground-breaking innovation and user-centric experiences.
-            </h4>
-            <button className="button-cta " onClick={handleContactClick}>Contact Us</button>
-
-          
+          <h4 className="btn-shine">
+            We transform your tech vision to reality from design to development,
+            with an emphasis on ground-breaking innovation and user-centric experiences.
+          </h4>
+          <button className="button-cta" onClick={handleContactClick}>Contact Us</button>
         </div>
         <div className='image-first'>
           <img src={Image} alt='Home1' />
@@ -83,12 +84,11 @@ experience.</h4>
       </div>
 
       {/* Tab make your own  */}
-      <div className = 'Make-section'>
+      <div className='Make-section'>
         <div className='content-makepage'>
-        
-        <h2>Make your own pieces. <br/>everywhere!</h2>
-        <h4>Weppso is good wherever you go. You can use it to start creating parts of an existing project or to create a new composition project.
-        </h4>
+          <h2>Make your own pieces. <br/>everywhere!</h2>
+          <h4>Weppso is good wherever you go. You can use it to start creating parts of an existing project or to create a new composition project.
+          </h4>
         </div>
       </div>
 
@@ -129,13 +129,11 @@ Our experts will conduct thorough consultations to gather insights and evaluate 
       {/* last section  */}
       <div className='last-section'>
         <div className='content-lastsection'>
-        <h2>Make An Appointment To See Our Team; We Would Be <br/> Happy To Help.</h2>
-<h4> Please Contact Us With Any Inquiries Or More Information About Our Services.</h4>  
-<button className="button-cta " onClick={handleContactClick}>Contact Us</button>
-
-    </div>
+          <h2>Make An Appointment To See Our Team; We Would Be <br/> Happy To Help.</h2>
+          <h4> Please Contact Us With Any Inquiries Or More Information About Our Services.</h4>  
+          <button className="button-cta" onClick={handleContactClick}>Contact Us</button>
+        </div>
       </div>
-
     </div>
   );
 }

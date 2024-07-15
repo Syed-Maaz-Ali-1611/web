@@ -1,10 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import '../Footer/Footer.css';
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+
   const handleContactClick = () => {
-    console.log("hello");
+    navigate('/contact');
   };
 
   const handleLinkClick = () => {
