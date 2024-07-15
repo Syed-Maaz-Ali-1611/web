@@ -21,10 +21,16 @@ function Contact() {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Prevent default form submission behavior
+
+    // Add form validation (optional):
+    // You can add validation logic here to ensure required fields are filled
+    // and data is in the correct format before proceeding.
+
+    // If validation passes (or you don't want validation), proceed:
 
     try {
-      const response = await axios.post('http://localhost:3000/api/contact', formData);
+      const response = await axios.post('https://smaazali-backend.mdbgo.io/api/contact', formData);
       console.log(response.data); // Log API response for debugging
       alert('Form submitted successfully!'); // Or display a dynamic message
       setFormData({
