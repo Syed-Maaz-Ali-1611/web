@@ -14,7 +14,7 @@ function About() {
 
         <div className='section-2'>
             <div className='content-section-2'>
-                <h2>ALLOW US INTRODUCE OURSELVES</h2>
+                <h2>ALLOW US TO INTRODUCE OURSELVES</h2>
                 <h4>At Weppso, we build apps, websites, and graphics –using the tools that propel game-changing companies and global influencers into the spotlight. 
 Our reputation is glowing client feedback which is a testament to our dedication to groundbreaking custom solutions
 </h4>
@@ -28,7 +28,7 @@ Our reputation is glowing client feedback which is a testament to our dedication
 
         <div className='section-3'>
             <div className='content-section-3'>
-                <h2>TRUST, QUALITY AND OPENESS</h2>
+                <h2>TRUST, QUALITY AND OPENNESS</h2>
                 <h4>Your Vision, Our Expertise</h4>
                 <h5>We believe in true partnership. We work alongside you and your team prioritizing unwavering quality, utilizing multi-stage QA processes and the best-in-class solutions to bring your vision to life.</h5>
             </div>

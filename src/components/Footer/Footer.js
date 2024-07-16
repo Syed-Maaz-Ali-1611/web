@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div className="footer-section footer-pages">
           <h4>Reach out to us!</h4>
-          <button className="CTA-button" onClick={handleContactClick}>Contact Us</button>
+          <button className="CTA-button" onClick={handleContactClick}>GET IN  TOUCH</button>
         </div>
       </div>
     </footer>

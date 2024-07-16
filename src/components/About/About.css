@@ -177,7 +177,7 @@
 .testemonials-1, .testemonials-2, .testemonials-3, .testemonials-4, .testemonials-5 {
     flex: 1 1 calc(33.333% - 40px); /* 3 boxes per row */
     padding: 20px;
-    background: rgba(255, 255, 255, 0.2); /* Transparent background */
+    background: rgba(255, 255, 255, 0.03); /* Transparent background */
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* White shadow */
     border-radius: 10px;
     transition: transform 0.3s ease;
