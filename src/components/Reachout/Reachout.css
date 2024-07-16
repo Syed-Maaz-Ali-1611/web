@@ -1,0 +1,22 @@
+.box-reachout {
+    margin: 5% auto; /* 5% top and bottom margin, auto left and right for centering */
+    border-radius: 10px;
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #011c2b;
+    max-width: 600px; /* Example max-width to limit width */
+    margin-bottom: -10%;
+  }
+  
+  @media (max-width: 1024px) {
+    .box-reachout {
+      max-width: 80%; /* Adjust max-width for tablet screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .box-reachout {
+      max-width: 90%; /* Adjust max-width for mobile screens */
+      margin-bottom: -50%;
+    }
+  }
+  
