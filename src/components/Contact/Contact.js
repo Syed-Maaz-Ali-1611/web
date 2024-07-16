@@ -80,6 +80,7 @@ function Contact() {
               name="firstName"
               value={formData.firstName}
               onChange={handleChange}
+              placeholder="John"
               required
             />
           </div>
@@ -90,6 +91,7 @@ function Contact() {
               name="lastName"
               value={formData.lastName}
               onChange={handleChange}
+              placeholder="Doe"
               required
             />
           </div>
@@ -100,6 +102,7 @@ function Contact() {
               name="phoneNumber"
               value={formData.phoneNumber}
               onChange={handleChange}
+              placeholder="123455667"
               required
             />
           </div>
@@ -110,6 +113,7 @@ function Contact() {
               name="email"
               value={formData.email}
               onChange={handleChange}
+              placeholder="abc@gmail.com"
               required
             />
           </div>
@@ -120,6 +124,7 @@ function Contact() {
               name="companyName"
               value={formData.companyName}
               onChange={handleChange}
+              placeholder="Your Company Name"
               required
             />
           </div>
@@ -129,6 +134,7 @@ function Contact() {
               name="message"
               value={formData.message}
               onChange={handleChange}
+              placeholder="Your message here"
               required
             />
           </div>
