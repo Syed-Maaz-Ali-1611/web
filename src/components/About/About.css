@@ -356,6 +356,7 @@
 
     .testemonials-1, .testemonials-2, .testemonials-3, .testemonials-4, .testemonials-5 {
         flex: 1 1 100%; /* 1 box per row */
+        margin-bottom: 6%;
     }
 
     .section-6 h2 {

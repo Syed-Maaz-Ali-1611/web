@@ -6,7 +6,8 @@
 
 /* Global h2 styles */
 h2 {
-    font-size: 58px; /* Set all h2 headings to 58px */
+    font-size: 58px;
+    /* Set all h2 headings to 58px */
 }
 
 /* Global h4 styles */
@@ -20,7 +21,8 @@ h4 {
     padding: 20px;
     margin: 0px;
     width: 100%;
-    color: #f3f2f5; /* Adjust color as needed */
+    color: #f3f2f5;
+    /* Adjust color as needed */
     margin-bottom: 10%;
 }
 
@@ -43,7 +45,8 @@ h4 {
     margin: 0;
     width: 100%;
     color: #f3f2f5;
-    background-color: #011c2b; /* Changed background color */
+    background-color: #011c2b;
+    /* Changed background color */
 }
 
 .service-item {
@@ -59,7 +62,8 @@ h4 {
 }
 
 .service-item:hover {
-    transform: scale(1.05); /* Zoom-in effect on hover */
+    transform: scale(1.05);
+    /* Zoom-in effect on hover */
 }
 
 .service-item img {
@@ -76,7 +80,7 @@ h4 {
     font-size: 16px;
 }
 
-.section10{
+.section10 {
     padding: 33px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -84,7 +88,8 @@ h4 {
 
 /* Add padding/margin to the right of the last service item */
 .service-item:nth-child(3n) {
-    margin-right: 20px; /* Adjust this value as needed */
+    margin-right: 20px;
+    /* Adjust this value as needed */
 }
 
 /* Responsive styles */
@@ -112,58 +117,70 @@ h4 {
     }
 
     .section1 .content-section1 {
-        margin-left: -12%;
-        padding: 39px;
+        margin-left: -19%;
+        padding: 9px 63px;
     }
 
     .section1 .content-section1 h2 {
         font-size: 50px;
     }
-    
+
     .service-section {
         flex-direction: column;
         align-items: center;
-        margin-left: -24px;
+        margin-left: -40px;
     }
 
     /* Global h2 styles */
-h2 {
-    font-size: 50px; /* Set all h2 headings to 58px */
-}
+    h2 {
+        font-size: 50px;
+        /* Set all h2 headings to 58px */
+    }
+
+
+    .testimonials h2 {
+        font-size: 50px;
+        margin-left: -10%;
+    }
 
     .service-item {
         flex: 0 1 90%;
         margin: 13px 0px;
         max-width: 100%;
         width: 74%;
+        margin-bottom: 6%;
     }
 
     .service-item img {
-        max-width: 80px; /* Reduce image size */
+        max-width: 80px;
+        /* Reduce image size */
         margin-bottom: 15px;
     }
 
     .service-item h3 {
-        font-size: 16px; /* Reduce font size for headings */
+        font-size: 16px;
+        /* Reduce font size for headings */
     }
 
     .service-item p {
-        font-size: 12px; /* Reduce font size for paragraphs */
+        font-size: 12px;
+        /* Reduce font size for paragraphs */
     }
 
-    .section10{
+    .section10 {
         padding: 33px;
     }
 
-    h4 {
+    .content-section10 h4 {
         font-size: 25px;
         font-weight: 100;
-        margin-top: 60px;
+        margin-top: 0%;
         margin-bottom: 60px;
+        margin-left: -8%;
+        padding: 0px 21px;
     }
+
     .service-item:nth-child(3n) {
         margin-right: -4px;
     }
 }
-
-
