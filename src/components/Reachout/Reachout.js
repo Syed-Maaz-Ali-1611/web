@@ -5,7 +5,7 @@ import { InlineWidget } from "react-calendly";
 const Reachout = () => {
   return (
     <div className="box-reachout">
-      <InlineWidget url="https://calendly.com/maazali1611" />
+      <InlineWidget url="https://calendly.com/weppso" />
     </div>
   );
 };
