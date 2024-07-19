@@ -62,8 +62,7 @@ function Contact() {
       <div className="section1-contact">
         <div className="content-section1-contact">
           <h5>
-            Schedule a consultation today to explore how our advisory,
-            implementation, lifecycle, and growth engine solutions can drive
+            Schedule a consultation today to explore how our solutions can drive
             exponential growth for your company. Easily schedule by filling out
             the form below:
           </h5>
