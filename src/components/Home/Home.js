@@ -39,6 +39,8 @@ function Home() {
     navigate('/contact');
   };
 
+
+
   return (
     <div className='main'>
       <div className='main-section fade-in-section'>
@@ -60,11 +62,10 @@ function Home() {
         <div className='content-secondpage'>
           <h2>Transform Your Digital Presence
           with Weppso</h2>
-          <h4>Are you looking to transform your digital presence? At Weppso, we're your go-to
-full-service product development agency, specializing in comprehensive website and
-application design and development services. Our team of expert designers,
-developers, and strategists are passionate about creating innovative digital solutions
-that drive results for businesses of all sizes.</h4>
+          <h4>At Weppso, we specialize in comprehensive website and application design and development services, 
+            focusing on creating innovative digital solutions to drive business results. Partner with our team of expert designers,
+             developers, and strategists to transform your digital presence with effective SEO strategies tailored to enhance your 
+             online visibility and reach.</h4>
         </div>
       </div>
 
@@ -72,11 +73,10 @@ that drive results for businesses of all sizes.</h4>
       <div className='third-section fade-in-section'>
         <div className='content-thirdpage'>
           <h2>Why Choosing Weppso?</h2>
-          <h4>At Weppso, we go beyond just building software; we forge partnerships.
-Our team of experts encompasses the entire spectrum of your needs, from
-bespoke software development to comprehensive maintenance and
-ongoing support. We meticulously craft a collaborative and gratifying
-experience.</h4>
+          <h4>At Weppso, we forge partnerships, not just software. Our expert team offers bespoke software development,
+             comprehensive maintenance, and ongoing support, ensuring a collaborative and gratifying experience. 
+             Partner with us to enhance your digital presence with effective SEO strategies tailored to elevate 
+             your online visibility and engagement.</h4>
         </div>
         <div className='image-thirdpage'>
           <img src={Image2} alt='Gif' />
@@ -86,7 +86,7 @@ experience.</h4>
       {/* Tab make your own  */}
       <div className='Make-section'>
         <div className='content-makepage'>
-          <h2>Make your own pieces. <br/>everywhere!</h2>
+          <h2>Make your own pieces, <br/>everywhere!</h2>
           <h4>Weppso is good wherever you go. You can use it to start creating parts of an existing project or to create a new composition project.
           </h4>
         </div>
