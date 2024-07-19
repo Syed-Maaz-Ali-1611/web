@@ -6,13 +6,15 @@ import '../Footer/Footer.css';
 const Footer = () => {
   const navigate = useNavigate();
 
-
   const handleContactClick = () => {
     navigate('/contact');
+    window.scrollTo(0, 0);  // Scroll to the top of the page
   };
 
-  const handleLinkClick = () => {
-    window.scrollTo(0, 0);
+  const handleLinkClick = (event) => {
+    event.preventDefault(); // Prevent the default behavior
+    const href = event.currentTarget.getAttribute('href');
+    window.location.href = href; // Reload the page and navigate to the target
   };
 
   return (
@@ -36,7 +38,7 @@ const Footer = () => {
         </div>
         <div className="footer-section footer-pages">
           <h4>Reach out to us!</h4>
-          <button className="CTA-button" onClick={handleContactClick}>GET IN  TOUCH</button>
+          <button className="CTA-button" onClick={handleContactClick}>GET IN TOUCH</button>
         </div>
       </div>
     </footer>
