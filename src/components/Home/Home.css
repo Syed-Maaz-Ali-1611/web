@@ -38,6 +38,7 @@ html {
   z-index: 2;
 }
 
+
 .content-homepage h2 {
   font-size: 90px;
   font-weight: 900;
@@ -75,6 +76,11 @@ html {
   margin-top: 5%;
   padding: 20px;
   margin-bottom: 5%;
+}
+
+.content-secondpage{
+  padding: 0px 10px;
+
 }
 
 .content-secondpage h2,
@@ -438,8 +444,8 @@ html {
 
   .content-homepage {
     margin-top: -16%;
-    margin-left: -20%;
-    padding: 53px;
+        margin-left: -8%;
+        padding: 53px;
   }
 
   .content-homepage h2 {
@@ -455,13 +461,13 @@ html {
   .image-first img {
     width: 55%;
     margin-top: 5%;
-    margin-left: -22%;
+    margin-left: -9%;
   }
 
 
   .content-secondpage {
-    margin-left: -11%;
-    padding: 36px;
+    margin-left: 0%;
+    padding: 11px;
   }
 
   .content-secondpage h2 {
@@ -476,7 +482,7 @@ html {
     flex-direction: column;
     height: auto;
     margin-bottom: 5%;
-    margin-left: 2%;
+    margin-left: -6%;
   }
 
   .image-thirdpage img {
@@ -488,7 +494,6 @@ html {
   }
 
   .content-thirdpage {
-    margin-left: -12%;
     margin-top: 5%;
     padding: 0px 50px;
   }
@@ -519,20 +524,19 @@ html {
   .image-mission img {
     width: 70%;
     margin-top: 10%;
-    margin-left: 9%;
+    margin-left:  13%;
   }
 
   .image-vision img{
     width: 70%;
     margin-top: 10%;
-    margin-left: -11%;
+    margin-left: 0%;
   }
 
   .content-mission,
   .content-vision {
     text-align: center;
-    margin-left: -11%;
-    padding: 0px 50px;
+    padding: 0px 36px;
   }
 
   .content-mission h2,
@@ -559,11 +563,7 @@ html {
     padding: 20px;
   }
 
-  .forefront-section {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 5%;
-  }
+ 
 
   .content-forefront h2 {
     font-size: 35px;
@@ -583,14 +583,13 @@ html {
   }
 
   .forefront-section{
-    padding: 0px 50px;
-    margin-left: -9%;
+    padding: 0px 37px;
+    margin-left: 2%;
 }
 
   .content-makepage {
-    padding: 0px 55px;
-    margin-left: -11%;
-  }
+    padding: 0px 38px;
+    }
 
   .content-makepage h2 {
     font-size: 43px;
@@ -607,8 +606,8 @@ html {
     height: 50vh;
     background-color: #011c2b;
     text-align: center;
-    padding: 50px 13%;
-    margin-left: -9%;
+    padding: 50px 8%;
+    margin-left: 2%;
 }
   .button-cta {
     background-color: #00ADB5;
